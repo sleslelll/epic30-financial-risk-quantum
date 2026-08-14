@@ -3,5 +3,6 @@ pandas
 yfinance
 scipy
 scikit-learn
+statsmodels
 matplotlib
 networkx
