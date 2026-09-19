@@ -1,0 +1,2 @@
+model,systemic_risk_weight,selected_assets,expected_return,variance,volatility,systemic_risk_exposure,objective_value,ETH_selected,ETH_weight,BTC_selected,BTC_weight,NASDAQ_selected,NASDAQ_weight,SP500_selected,SP500_weight,GOLD_selected,GOLD_weight,USD_selected,USD_weight
+standard,0.0,"BTC, NASDAQ, GOLD",0.2196494355594335,0.05087120490764722,0.22554645842408436,0.7371622596257118,-0.08438911532589315,0,0.0,1,0.3333333333333333,1,0.3333333333333333,0,0.0,1,0.3333333333333333,0,0.0
