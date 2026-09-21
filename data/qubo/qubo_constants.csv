@@ -1,0 +1,3 @@
+model,eta,penalty,constant
+standard,0.0,0.022,0.19799999999999998
+systemic_risk_aware,0.15,0.022,0.19799999999999998
