@@ -1,0 +1,9 @@
+model,eta,method,qaoa_reps,selected_assets,bitstring,cardinality,feasible,solution_energy,exact_bitstring,exact_energy,optimality_gap,exact_state_observed,ground_state_sampling_rate,sampling_metric_type,feasible_sampling_rate,most_likely_bitstring,most_likely_exact_match,sampling_budget,random_seed,optimizer,optimizer_evaluations
+standard,0.0,Exact Enumeration,,"BTC, NASDAQ, GOLD",011010,3,True,-0.0843891153258932,011010,-0.0843891153258932,0.0,True,,Exact reference,,,,,,Exact Enumeration,
+standard,0.0,Simulated Annealing,,"BTC, NASDAQ, GOLD",011010,3,True,-0.0843891153258931,011010,-0.0843891153258932,-8.326672684688674e-17,True,0.575,SA read frequency,1.0,,,1000.0,42.0,Simulated Annealing,
+standard,0.0,QAOA,1.0,"BTC, NASDAQ, GOLD",011010,3,True,-0.084389115325893,011010,-0.0843891153258932,2.0816681711721683e-16,True,0.018,QAOA sample probability,0.4020000000000001,100011,False,1000.0,42.0,COBYLA,30.0
+standard,0.0,QAOA,2.0,"BTC, NASDAQ, GOLD",011010,3,True,-0.084389115325893,011010,-0.0843891153258932,2.0816681711721683e-16,True,0.005,QAOA sample probability,0.3390000000000001,111000,False,1000.0,42.0,COBYLA,47.0
+systemic,0.15,Exact Enumeration,,"BTC, GOLD, USD",010011,3,True,0.0172331640823938,010011,0.0172331640823938,0.0,True,,Exact reference,,,,,,Exact Enumeration,
+systemic,0.15,Simulated Annealing,,"BTC, GOLD, USD",010011,3,True,0.0172331640823937,010011,0.0172331640823938,-2.1857515797307772e-16,True,0.822,SA read frequency,0.9179999999999999,,,1000.0,42.0,Simulated Annealing,
+systemic,0.15,QAOA,1.0,"BTC, GOLD, USD",010011,3,True,0.0172331640823939,010011,0.0172331640823938,1.1449174941446927e-16,True,0.012,QAOA sample probability,0.3410000000000001,000011,False,1000.0,42.0,COBYLA,34.0
+systemic,0.15,QAOA,2.0,"BTC, GOLD, USD",010011,3,True,0.0172331640823939,010011,0.0172331640823938,1.1449174941446927e-16,True,0.02,QAOA sample probability,0.403,100011,False,1000.0,42.0,COBYLA,58.0
