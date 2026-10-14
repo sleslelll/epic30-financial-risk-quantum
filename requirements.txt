@@ -6,3 +6,7 @@ scikit-learn
 statsmodels
 matplotlib
 networkx
+dimod 
+dwave-neal
+qiskit
+qiskit-algorithms
