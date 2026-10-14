@@ -86,23 +86,13 @@ Using the full sample for the expected-return estimate reduces reliance on a sin
 The standard objective is:
 
 $$
-\min_{w} F_0(w)
-=
-\frac{1}{2} w^\top \Sigma_{252} w
--
-\frac{1}{2} \mu_{\mathrm{full}}^\top w
+\min_{w} F_0(w) = \frac{1}{2} w^\top \Sigma_{252} w - \frac{1}{2} \mu_{\mathrm{full}}^\top w
 $$
 
 The systemic-risk-adjusted objective adds a third term:
 
 $$
-\min_{w} F_\eta(w)
-=
-\frac{1}{2} w^\top \Sigma_{252} w
--
-\frac{1}{2} \mu_{\mathrm{full}}^\top w
-+
-\eta \tilde{s}_{252}^\top w
+\min_{w} F_\eta(w) = \frac{1}{2} w^\top \Sigma_{252} w - \frac{1}{2} \mu_{\mathrm{full}}^\top w + \eta \tilde{s}_{252}^\top w
 $$
 
 Both are solved with the same long-only, fully invested constraints:
